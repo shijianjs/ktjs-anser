@@ -20,7 +20,7 @@
 - [x] 模块 `ktjs-anser`：声明、测试、`wrapper-revisions.properties`
 - [x] demo：overview / converter / api / conventions，中英双语
 - [x] docs：intro / getting-started / usage / licensing，中英双语，kit 首页五件套
-- [x] `pagesSite` 与 Pages 工作流（push 到 main 自动发布）
+- [x] `pagesSite` 产站 + `gh-pages` 分支发布；Pages 工作流暂为手动（站内依赖 kit 的 SNAPSHOT，CI 解析不了）
 - [x] MIT 许可 + anser 的 MIT 声明（[guide/licensing](../docs/src/jsMain/resources/docs/guide/licensing.md)）
 - [x] GitHub 仓库创建与首次推送（<https://github.com/shijianjs/ktjs-anser>）
 
