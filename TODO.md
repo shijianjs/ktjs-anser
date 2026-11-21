@@ -22,7 +22,7 @@
 - [x] docs：intro / getting-started / usage / licensing，中英双语，kit 首页五件套
 - [x] `pagesSite` 与 Pages 工作流（push 到 main 自动发布）
 - [x] MIT 许可 + anser 的 MIT 声明（[guide/licensing](../docs/src/jsMain/resources/docs/guide/licensing.md)）
-- [ ] GitHub 仓库创建与首次推送
+- [x] GitHub 仓库创建与首次推送（<https://github.com/shijianjs/ktjs-anser>）
 
 ### 注意事项
 
