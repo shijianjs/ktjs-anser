@@ -1,0 +1,54 @@
+---
+title: ktjs-anser
+description: ANSI escape sequences to HTML, JSON or plain text
+hide_table_of_contents: true
+---
+
+import logo from '@site/static/img/ktjs-anser-logo.png';
+
+{/* The `<ktjs-…>` sections come from the ktjs-docusaurus kit: the Gradle plugin publishes its bundle
+    under `static/ktjs-client/`, and `ClientModule.kt` loads it once the page is hydrated. `href`s stay
+    relative so the same page works under both locale prefixes; `logo` is imported so the URL carries
+    whatever `baseUrl` this site is deployed under. */}
+
+<ktjs-hero logo-src={logo} title="ktjs-anser" tagline="Turn ANSI escape sequences into HTML, JSON or plain text">
+
+<ktjs-action kind="primary" href="intro">Get started</ktjs-action>
+
+<ktjs-action kind="secondary" href="https://shijianjs.github.io/ktjs-anser/demo/" icon="lucide:play">Demo</ktjs-action>
+
+<ktjs-action kind="secondary" href="https://github.com/shijianjs/ktjs-anser" icon="simple-icons:github">GitHub</ktjs-action>
+
+<ktjs-badge href="https://github.com/shijianjs/ktjs-anser/blob/main/LICENSE" src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></ktjs-badge>
+
+<ktjs-badge href="https://github.com/shijianjs/ktjs-anser" src="https://img.shields.io/badge/Kotlin%2FJS-2.4.21-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin/JS"></ktjs-badge>
+
+</ktjs-hero>
+
+<ktjs-features section-title="Why this wrapper" tinted>
+
+<ktjs-feature icon="lucide:terminal" title="Build logs, rendered">`git`, `npm`, `kotlinc` and CI logs arrive coloured by SGR escapes; one call turns them into spans a page can show.</ktjs-feature>
+
+<ktjs-feature icon="lucide:braces" title="Three outputs, one input">HTML for display, JSON for an editor that styles each span itself, plain text for search and copy.</ktjs-feature>
+
+<ktjs-feature icon="lucide:shield-check" title="Typed end to end">The module is `external` declarations and sealed literals: options, entries and colour names are checked, not guessed.</ktjs-feature>
+
+<ktjs-feature icon="lucide:paintbrush" title="Classes or inline colours">`use_classes` switches to `ansi-*-fg`, so the page's own stylesheet decides the palette.</ktjs-feature>
+
+<ktjs-feature icon="lucide:link" title="Links and escaping">`escapeForHtml` for untrusted text, `linkify` for the URLs inside it — in that order.</ktjs-feature>
+
+<ktjs-feature icon="lucide:book-open" title="Docs and demo in two languages">This site and the demo both switch between English and Chinese; the API reference is Dokka output.</ktjs-feature>
+
+</ktjs-features>
+
+<ktjs-next-steps section-title="Where to go next">
+
+<ktjs-step href="intro" title="Introduction">What the wrapper maps and how the pipeline is ordered.</ktjs-step>
+
+<ktjs-step href="guide/getting-started" title="Getting started">The dependency coordinate and the build tasks.</ktjs-step>
+
+<ktjs-step href="guide/usage" title="Usage">Options, entries, decoration names and the instance API.</ktjs-step>
+
+<ktjs-step href="https://shijianjs.github.io/ktjs-anser/api/" title="API reference">Dokka output for the published module.</ktjs-step>
+
+</ktjs-next-steps>

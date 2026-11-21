@@ -1,0 +1,53 @@
+---
+title: ktjs-anser
+description: 把 ANSI 转义序列转成 HTML、JSON 或纯文本
+hide_table_of_contents: true
+---
+
+import logo from '@site/static/img/ktjs-anser-logo.png';
+
+{/* `<ktjs-…>` 分区来自 ktjs-docusaurus 的工具箱：Gradle 插件把它的 bundle 放到 `static/ktjs-client/`，
+    `ClientModule.kt` 在页面 hydrate 之后加载它。`href` 写成相对路径，两种 locale 前缀下都能用；
+    `logo` 用 import 取，这样 URL 会带上本站实际的 `baseUrl`。 */}
+
+<ktjs-hero logo-src={logo} title="ktjs-anser" tagline="把 ANSI 转义序列转成 HTML、JSON 或纯文本">
+
+<ktjs-action kind="primary" href="intro">开始阅读</ktjs-action>
+
+<ktjs-action kind="secondary" href="https://shijianjs.github.io/ktjs-anser/demo/" icon="lucide:play">演示</ktjs-action>
+
+<ktjs-action kind="secondary" href="https://github.com/shijianjs/ktjs-anser" icon="simple-icons:github">GitHub</ktjs-action>
+
+<ktjs-badge href="https://github.com/shijianjs/ktjs-anser/blob/main/LICENSE" src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></ktjs-badge>
+
+<ktjs-badge href="https://github.com/shijianjs/ktjs-anser" src="https://img.shields.io/badge/Kotlin%2FJS-2.4.21-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin/JS"></ktjs-badge>
+
+</ktjs-hero>
+
+<ktjs-features section-title="为什么用它" tinted>
+
+<ktjs-feature icon="lucide:terminal" title="构建日志直接上页面">`git`、`npm`、`kotlinc` 与 CI 日志都是 SGR 转义着色，一次调用就变成页面能显示的 span。</ktjs-feature>
+
+<ktjs-feature icon="lucide:braces" title="一种输入，三种输出">要显示用 HTML，要自己给每个片段配色用 JSON，要搜索或复制用纯文本。</ktjs-feature>
+
+<ktjs-feature icon="lucide:shield-check" title="全程有类型">整个模块就是 `external` 声明与 sealed 字面量：选项、片段、颜色名都经过编译器。</ktjs-feature>
+
+<ktjs-feature icon="lucide:paintbrush" title="class 或内联颜色">`use_classes` 切到 `ansi-*-fg`，调色板交给页面自己的样式表。</ktjs-feature>
+
+<ktjs-feature icon="lucide:link" title="转义与链接">不可信的文本先 `escapeForHtml`，再 `linkify` 里面的链接——顺序不能反。</ktjs-feature>
+
+<ktjs-feature icon="lucide:book-open" title="文档与 demo 都是双语">本站与 demo 都能中英切换；API 文档由 Dokka 生成。</ktjs-feature>
+
+</ktjs-features>
+
+<ktjs-next-steps section-title="接下来">
+
+<ktjs-step href="intro" title="介绍">封装映射了什么，流水线为什么按这个顺序。</ktjs-step>
+
+<ktjs-step href="guide/getting-started" title="快速开始">依赖坐标与构建任务。</ktjs-step>
+
+<ktjs-step href="guide/usage" title="用法">选项、片段、装饰名与实例 API。</ktjs-step>
+
+<ktjs-step href="https://shijianjs.github.io/ktjs-anser/api/" title="API 文档">发布模块的 Dokka 产物。</ktjs-step>
+
+</ktjs-next-steps>
