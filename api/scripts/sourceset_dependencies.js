@@ -1,0 +1,1 @@
+sourceset_dependencies = '{":ktjs-anser/commonMain":[],":ktjs-anser/jsMain":[":ktjs-anser/webMain"],":ktjs-anser/webMain":[":ktjs-anser/commonMain"]}'
