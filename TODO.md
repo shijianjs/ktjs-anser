@@ -23,6 +23,7 @@
 - [x] `pagesSite` 产站 + `gh-pages` 分支发布；Pages 工作流暂为手动（站内依赖 kit 的 SNAPSHOT，CI 解析不了）
 - [x] MIT 许可 + anser 的 MIT 声明（[guide/licensing](../docs/src/jsMain/resources/docs/guide/licensing.md)）
 - [x] GitHub 仓库创建与首次推送（<https://github.com/shijianjs/ktjs-anser>）
+- [x] Pages：<https://shijianjs.github.io/ktjs-anser/>（legacy + `gh-pages`，文档根、`/demo/`、`/api/`、`/zh-Hans/` 均 200）
 
 ### 注意事项
 
